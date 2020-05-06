@@ -4,6 +4,10 @@ Teori och praktiska API
 
 #####
 Teoretisk del
+```sh
+Wohoooo
+Jippiii
+```
 
 Svara på följande frågor
 
