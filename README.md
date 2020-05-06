@@ -36,7 +36,7 @@ PATCH: Ett sätt att delvis byta ut innehållet i en fil på servern.
      ?username=something är query.
      
 ```sh
- userinfo          host        port
+            userinfo          host        port
         ┌───────┴───────┐ ┌────┴────────┐ ┌┴┐
  http://john.doe:password@www.example.com:123/forum/questions/?tag=networking&order=newest#top
  └─┬─┘ └───────────┬────────────────────────┘└─┬─────────────┘└────────┬──────────────────┘└┬─┘
