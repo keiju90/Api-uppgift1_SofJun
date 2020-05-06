@@ -18,14 +18,11 @@ Svara på följande frågor
     Response code och body: Svarar tillbaka med response code 200 och är i html. 
     
     2. Beskriv HTTP-protokollets vanligaste metoder och vad de gör.
-    GET: Klienten ber servern att skicka en viss fil, till exempel en HTML-sida eller en bild. Detta är det vanligaste HTTP-kommandot.
+GET: Klienten ber servern att skicka en viss fil, till exempel en HTML-sida eller en bild. Detta är det vanligaste HTTP-kommandot.
 HEAD: Klienten ber servern att berätta mer om innehållet utan att skicka över det.
 POST: Klienten ber servern att lagra viss information, till exempel i samband med uppladdning av fil eller då ett formulär skickas.
 PUT: Klienten laddar upp en fil på servern. Det kan hända att servern nekar förfrågan.
 DELETE: Klienten säger åt servern att ta bort en fil. Används nästan aldrig.
-TRACE: Klienten ber servern att skicka tillbaks förfrågan. Kan användas för att kontrollera ifall tredje part manipulerat den ursprungliga förfrågan.
-OPTIONS: Visar en lista över serverns samtliga HTTP-kommandon.
-CONNECT: Omvandlar förfrågan till en TCP/IP-tunnel, till exempel för att möjliggöra SSL/HTTPS.
 PATCH: Ett sätt att delvis byta ut innehållet i en fil på servern.
     
     3. "http://localhost:3000/users?username=something" är en URI, beskriv vilka delar den består av och vad de kallas.
