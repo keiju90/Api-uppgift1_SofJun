@@ -36,3 +36,4 @@ PATCH: Ett sätt att delvis byta ut innehållet i en fil på servern.
      ?username=something är query.
      
     4. På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl.
+    path header och query 
