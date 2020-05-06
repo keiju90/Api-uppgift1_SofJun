@@ -35,5 +35,11 @@ PATCH: Ett sätt att delvis byta ut innehållet i en fil på servern.
      "/users" är en path.
      ?username=something är query.
      
+      userinfo          host        port
+        ┌───────┴───────┐ ┌────┴────────┐ ┌┴┐
+ http://john.doe:password@www.example.com:123/forum/questions/?tag=networking&order=newest#top
+ └─┬─┘ └───────────┬────────────────────────┘└─┬─────────────┘└────────┬──────────────────┘└┬─┘
+ scheme         authority                      path                  query             fragment
+     
     4. På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl.
     path header och query 
