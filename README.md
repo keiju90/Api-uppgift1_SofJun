@@ -9,6 +9,9 @@ Svara på följande frågor
 
     1. Hur används HTTP-protokollet när du surfar in på en websida? Beskriv vilken metod, path, URI, 
     response code och body som skickas in och svarar. 
+    #### metod 
+    #### path
+    #### URI 
     Om du har svårt att bestämma dig för en url, ta ex. http://www.smp.se/kultur-noje/
     2. Beskriv HTTP-protokollets vanligaste metoder och vad de gör.
     3. "http://localhost:3000/users?username=something" är en URI, beskriv vilka delar den består av och vad de kallas.
