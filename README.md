@@ -41,4 +41,14 @@ PATCH: Ett sätt att delvis byta ut innehållet i en fil på servern.
 ```
      
     4. På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl.
-    path header och query 
+    path header och query.
+    
+    curl -s "localhost:3000/someparam?keyWithoutValue&keyWithvalue=value" -H "some: header" | jq
+```sh
+path parameter  =  /:someparam,
+
+query parameter =  /someparam?keyWithoutValue&keyWithvalue=value
+
+header parameter = / -H "some: header"
+```
+
