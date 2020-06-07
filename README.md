@@ -43,16 +43,13 @@ Exempel:
 
  
 4. På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl.
-    ```sh
+```sh
 Svar:
-path header och query.
-    
+path header och query. 
+
 curl -s "localhost:3000/someparam?keyWithoutValue&keyWithvalue=value" -H "some: header" | jq
-
 path parameter  =  /:someparam,
-
 query parameter =  /someparam?keyWithoutValue&keyWithvalue=value
-
 header parameter = / -H "some: header"
 ```
 
