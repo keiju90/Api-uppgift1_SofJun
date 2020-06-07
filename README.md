@@ -53,3 +53,12 @@ query parameter =  /someparam?keyWithoutValue&keyWithvalue=value
 header parameter = / -H "some: header"
 ```
 
+Feedback på kursen: 
+```sh
+Kursens takt- Takten på kursen har varit väldigt intensiv med många övnings- & inlämningsuppgifter. För mycket information.
+Kursmaterial - Bra med kursboken. Finns mycket information på nätet.  
+Format - Det har tagit lång tid för mig att förstå grunderna och jag upplever upplägget som ganska så rörigt med många moment.
+Jag tycker vi kunde haft fler steg för steg genomgångar/uppgifter där det förklarades exakt hur man skulle göra vissa moment. Jag upplevede även att detta inte riktigt var en kurs för nybörjare då jag har haft svårt att "hänga med" redan från första början. 
+Det som har varit bra är att läraren funnits tillgänglig och varit kunnig inom ämnet. 
+```
+
