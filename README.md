@@ -17,7 +17,7 @@ Svara på följande frågor
     URI: https://www.bondeniskolan.se/djur1/kor1/
     Response code och body: Svarar tillbaka med response code 200 och är i html. 
     
-    2. Beskriv HTTP-protokollets vanligaste metoder och vad de gör.
+2. Beskriv HTTP-protokollets vanligaste metoder och vad de gör.
 GET: Klienten ber servern att skicka en viss fil, till exempel en HTML-sida eller en bild. Detta är det vanligaste HTTP-kommandot.
 HEAD: Klienten ber servern att berätta mer om innehållet utan att skicka över det.
 POST: Klienten ber servern att lagra viss information, till exempel i samband med uppladdning av fil eller då ett formulär skickas.
@@ -39,12 +39,12 @@ PATCH: Ett sätt att delvis byta ut innehållet i en fil på servern.
  └─┬─┘ └───────────┬────────────────────────┘└─┬─────────────┘└────────┬──────────────────┘└┬─┘
  scheme         authority                      path                  query             fragment
 ```
-     
+     ```sh
     4. På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl.
     path header och query.
     
     curl -s "localhost:3000/someparam?keyWithoutValue&keyWithvalue=value" -H "some: header" | jq
-```sh
+
 path parameter  =  /:someparam,
 
 query parameter =  /someparam?keyWithoutValue&keyWithvalue=value
